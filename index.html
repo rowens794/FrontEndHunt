@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<!--320x568! smallest iphone res-->
+
+<html lang="en">
+  <head>
+    <title>Signin to the Hunt</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+    <!-- start password screen-->
+    <div id="loginWrapper">
+      <h2 class="signInHeading">get your hunt on</h2>
+
+      <div class="row" id="signInForm">
+          <div class="col-xs-5"></div>
+            <div class="col-xs-2">
+                <input type="username" id="userName" class="form-control" placeholder="username" required autofocus>
+                <input type="password" id="inputPassword" class="form-control" placeholder="password" required>
+                <br>
+                <button class="btn btn-block" type="submit" id="loginButton">Sign in</button>
+                <p id="badUserPassword"></p>
+            </div>
+          <div class="col-xs-5"></div>
+      </div>
+    </div>
+    <!-- end password screen-->
+
+
+    <div class="row hidden" id="dashboard">
+
+        <div class="col-xs-3" id="menu"> 
+          <div id="welcome">
+            <p id="welcomeText">Welcome Ryan</p>
+          </div>
+            
+          <!-- MENU BAR ------------------------- -->
+          <div id="clueLinks">
+              <p class="clues found" id="clue1">Clue #1: A parked horse</p>
+              <p class="clues notFound" id="clue2">Clue #2</p>
+              <p class="clues notFound" id="clue3">Clue #3</p>
+              <p class="clues notFound" id="clue4">Clue #4</p>
+              <p class="clues notFound" id="clue5">Clue #5</p>
+              <p class="clues notFound" id="clue6">Clue #6</p>
+              <p class="clues notFound" id="clue7">Clue #7</p>
+              <p class="clues notFound" id="clue8">Clue #8</p>
+          </div>
+
+          <div id="map">
+              <p class="menuBottom">Review the Map</p>
+          </div>
+
+          <div id="help">
+              <p class="menuBottom">How to Play</p>
+          </div>
+
+        </div>
+        <!-- MENU BAR ------------------------- -->
+
+        <!-- CONTENT AREA ------------------------- -->
+        <div class="col-xs-9" id="contentArea">
+          <div id="clueHeader">
+            <p id="clueLarge">In a park there sits a man atop a stallion, he faught a war for the northern battalion.</p>
+            <p id="GPSWarning" class=""></p>
+          </div>
+
+          <div id="markLocation">
+            <p>Mark Location</p>
+          </div>
+
+          <div id="leaderBoard">
+            <p id="leaderHeader">Leaders</p>
+            <p id="leader1">CarlJ: Clue 8</p>
+            <p id="leader2">Johnny R: Clue 7</p>
+            <p id="leader3">Suzy Q: Clue 7</p>
+            <p id="leader4">Billy Ray: Clue 6</p>
+            <p id="leader5">Tina D: Clue 5</p>
+            <p id="leader6">Lexi: Clue 4</p>
+
+
+          </div>
+
+        </div>
+        <!-- CONTENT AREA ------------------------- -->
+
+    </div>
+      
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+  
+</html>

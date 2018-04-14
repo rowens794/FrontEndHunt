@@ -1,0 +1,142 @@
+/*373a40-919e5c-d57533-d1a65c-dbdbb2*/
+/*grey   green  orange yellow white*/
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+  margin-top: 5px;
+  background-color: #373a40;
+}
+
+#signInForm { 
+  margin-top: 25px;
+}
+
+.signInHeading{
+  font-family: 'Lobster', cursive;
+  font-size: 48px;
+  color: #dbdbb2;
+  margin-top: 125px;
+  text-align: center;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.oldClue{
+  text-decoration: line-through;
+  color: #896D3C; 
+}
+
+#loginButton{
+  width: 110px;
+  background-color: #d57533;
+  color: #dbdbb2;
+  margin: auto;
+  font-family: 'Lobster', cursive;
+  border: 2px solid #d1a65c;
+}
+
+#badUserPassword{
+  margin-top: 20px;
+  color: red;
+  text-align: center;
+}
+
+#menu{
+  background-color: #373a40;
+  color: #dbdbb2;
+  margin-left: 10px;
+  height:100vh;
+  position: relative;
+  min-height: 320px;
+}
+
+#welcome{
+  margin-top: 20px;
+  font-family: 'Lobster', cursive;
+  font-size: 24px;
+  color: #d1a65c;
+}
+
+#welcomeText{
+  text-align: center;
+}
+
+#clueLinks{
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.notFound{
+  color: #896D3C; 
+}
+
+#map{
+  position: absolute;
+  color: #d57533;
+  bottom: 40px;
+}
+
+#help{
+  position: absolute;
+  color: #919e5c;
+  bottom: 0;
+}
+
+#contentArea{
+  background-color: #dbdbb2;
+  position: relative;
+  margin: -3px 0px 0px -10px;
+  border-left: 5px solid #D57533;
+  height:101vh;
+  
+}
+
+#clueLarge{
+  font-size: 34px;
+  margin: 50px 20px 20px 20px;
+  color: #373a40;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.GPSBox{
+  font-size: 34px;
+  margin: 50px 20px 20px 20px;
+  color: #373a40;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #d57533;
+  border: 3px solid #373a40;
+  text-align: center;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#markLocation{
+  position: absolute;
+  height: 60px;
+  width: 120px;
+  background-color: #373a40;
+  color: #dbdbb2;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  border: 5px solid #919e5c;
+  border-radius: 10px;
+  bottom: 20px;
+  right: 30px;
+}
+
+#leaderBoard{
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 80%;
+  bottom: 20px;
+}
+
+#leaderHeader{
+  text-decoration: underline;
+  font-size: 22px;
+}
